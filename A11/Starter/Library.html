@@ -121,7 +121,7 @@ extends java.lang.Object</pre>
 <tr class="altColor">
 <th class="colConstructorName" scope="row"><code><span class="memberNameLink"><a href="#%3Cinit%3E(String)">Library</a></span>&#8203;(String&nbsp;a)</code></th>
 <td class="colLast">
-<div class="block">Constructs a new Library object with given address.</div>
+    <div class="block">Constructs a new <code>Library</code> object with given address.</div>
 </td>
 </tr>
 </tbody>
@@ -151,21 +151,21 @@ extends java.lang.Object</pre>
 <td class="colFirst"><code>void</code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#addBook(Starter.Book)">addBook</a></span>&#8203;(<a href="Book.html" title="class in Starter">Book</a>&nbsp;book)</code></th>
 <td class="colLast">
-<div class="block">Book object is added to catalog</div>
+    <div class="block"><code>Book</code> object is added to catalog</div>
 </td>
 </tr>
 <tr class="rowColor" id="i1">
 <td class="colFirst"><code>void</code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#borrowBook(String)">borrowBook</a></span>&#8203;(String&nbsp;title)</code></th>
 <td class="colLast">
-<div class="block">Prints to console whether book is already rented, if it is not in the catalog, or if it has been rented successfully.</div>
+    <div class="block">Prints to console whether this <code>Book</code> is already rented, if it is not in the catalog, or if it has been rented successfully.</div>
 </td>
 </tr>
 <tr class="altColor" id="i2">
 <td class="colFirst"><code>String</code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#getAddress()">getAddress</a></span>()</code></th>
 <td class="colLast">
-<div class="block">Get the address of this Library</div>
+    <div class="block">Get the address of this <code>Library</code></div>
 </td>
 </tr>
 <tr class="rowColor" id="i3">
@@ -187,7 +187,7 @@ int&nbsp;daysLate)</code></th>
 <td class="colFirst"><code>String</code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#toString()">toString</a></span>()</code></th>
 <td class="colLast">
-<div class="block">Returns the String representation of this Library.</div>
+    <div class="block">Returns the String representation of this <code>Library</code>.</div>
 </td>
 </tr>
 </tbody>
@@ -216,10 +216,10 @@ int&nbsp;daysLate)</code></th>
 <section class="detail">
 <h3><a id="&lt;init&gt;(String)">Library</a></h3>
 <div class="memberSignature"><span class="modifiers">public</span>&nbsp;<span class="memberName">Library</span>&#8203;(<span class="arguments">String&nbsp;a)</span></div>
-<div class="block">Constructs a new Library object with given address.</div>
+<div class="block">Constructs a new <code>Library</code> object with given address.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
-<dd><code>a</code> - - library's address as String</dd>
+<dd><code>a</code> - <code>Library</code>'s address as <code>String</code></dd>
 </dl>
 </section>
 </li>
@@ -237,10 +237,10 @@ int&nbsp;daysLate)</code></th>
 <section class="detail">
 <h3><a id="getAddress()">getAddress</a></h3>
 <div class="memberSignature"><span class="modifiers">public</span>&nbsp;<span class="returnType">String</span>&nbsp;<span class="memberName">getAddress</span>()</div>
-<div class="block">Get the address of this Library</div>
+<div class="block">Get the address of this <code>Library</code></div>
 <dl>
 <dt><span class="returnLabel">Returns:</span></dt>
-<dd>the address of this Library</dd>
+<dd>the address of this <code>Library</code></dd>
 </dl>
 </section>
 </li>
@@ -251,7 +251,7 @@ int&nbsp;daysLate)</code></th>
 <div class="block">Book object is added to catalog</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
-<dd><code>book</code> - - Book object being added</dd>
+<dd><code>book</code> - <code>Book</code> object being added</dd>
 </dl>
 </section>
 </li>
@@ -259,10 +259,10 @@ int&nbsp;daysLate)</code></th>
 <section class="detail">
 <h3><a id="borrowBook(String)">borrowBook</a></h3>
 <div class="memberSignature"><span class="modifiers">public</span>&nbsp;<span class="returnType">void</span>&nbsp;<span class="memberName">borrowBook</span>&#8203;(<span class="arguments">String&nbsp;title)</span></div>
-<div class="block">Prints to console whether book is already rented, if it is not in the catalog, or if it has been rented successfully.</div>
+<div class="block">Prints to console whether <code>Book</code> is already rented, if it is not in the catalog, or if it has been rented successfully.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
-<dd><code>title</code> - - title of book</dd>
+<dd><code>title</code> - title of <code>Book</code></dd>
 </dl>
 </section>
 </li>
@@ -270,7 +270,7 @@ int&nbsp;daysLate)</code></th>
 <section class="detail">
 <h3><a id="printAvailableBooks()">printAvailableBooks</a></h3>
 <div class="memberSignature"><span class="modifiers">public</span>&nbsp;<span class="returnType">void</span>&nbsp;<span class="memberName">printAvailableBooks</span>()</div>
-<div class="block">Prints to console whether no books are in the catalog or prints the list of books (and says if they are currently rented).</div>
+<div class="block">Prints to console whether no <code>Book</code>s are in the catalog or prints the list of <code>Book</code>s (and says if they are currently rented).</div>
 </section>
 </li>
 <li class="blockList">
@@ -278,11 +278,11 @@ int&nbsp;daysLate)</code></th>
 <h3><a id="returnBook(String,int)">returnBook</a></h3>
 <div class="memberSignature"><span class="modifiers">public</span>&nbsp;<span class="returnType">void</span>&nbsp;<span class="memberName">returnBook</span>&#8203;(<span class="arguments">String&nbsp;title,
 int&nbsp;daysLate)</span></div>
-<div class="block">Book with title is marked as returned and the fine amount is given, which is FINE * daysLate</div>
+<div class="block"><code>Book</code> with title is marked as returned and the fine amount is given, which is FINE * daysLate</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
-<dd><code>title</code> - - title of book being returned</dd>
-<dd><code>daysLate</code> - - number of days late</dd>
+<dd><code>title</code> - title of <code>Book</code> being returned</dd>
+<dd><code>daysLate</code> - number of days late</dd>
 </dl>
 </section>
 </li>
@@ -290,12 +290,12 @@ int&nbsp;daysLate)</span></div>
 <section class="detail">
 <h3><a id="toString()">toString</a></h3>
 <div class="memberSignature"><span class="modifiers">public</span>&nbsp;<span class="returnType">String</span>&nbsp;<span class="memberName">toString</span>()</div>
-<div class="block">Returns the String representation of this Library.</div>
+<div class="block">Returns the String representation of this <code>Library</code>.</div>
 <dl>
 <dt><span class="overrideSpecifyLabel">Overrides:</span></dt>
 <dd><code>toString</code>&nbsp;in class&nbsp;<code>java.lang.Object</code></dd>
 <dt><span class="returnLabel">Returns:</span></dt>
-<dd>The String representation of this Library.</dd>
+<dd>The String representation of this <code>Library</code>.</dd>
 </dl>
 </section>
 </li>
