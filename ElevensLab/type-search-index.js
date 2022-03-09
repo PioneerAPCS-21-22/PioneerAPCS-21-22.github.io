@@ -1,1 +1,1 @@
-typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"Elevens.Activity9","l":"Board"},{"p":"Elevens.Activity9","l":"Card"},{"p":"Elevens.Activity9","l":"CardGameGUI"},{"p":"Elevens.Activity9","l":"Deck"},{"p":"Elevens.Activity9","l":"ElevensBoard"},{"p":"Elevens.Activity9","l":"ElevensGUIRunner"}]
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"<Unnamed>","l":"Board"},{"p":"<Unnamed>","l":"Card"},{"p":"<Unnamed>","l":"CardGameGUI"},{"p":"<Unnamed>","l":"Deck"},{"p":"<Unnamed>","l":"ElevensBoard"}]
